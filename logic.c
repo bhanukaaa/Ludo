@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-#include "types.h"
+#include "types.h" // Includes other Header Files as well
 
 // Dev Tools============================================
 
@@ -2606,8 +2602,8 @@ void initializeHomeStraights() {
 void gameStart() {
     // seed for srand function, can be set manually or initalized to curr time
     seed = time(NULL);
-    // seed = 1724301215; // 1800 rounds to draw
 
+    // seed = 1724301215; // 1800 rounds to draw
     // seed = 1724739495; // two blocks of 2 breakage
     // seed = 1724725956; // blue weird breakage penalty
     // seed = 1724666206; // yellow block break

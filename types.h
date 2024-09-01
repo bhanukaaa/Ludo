@@ -1,7 +1,14 @@
 #ifndef TYPES_H
 #define TYPES_H
 
+// Standard Headers
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include <stdbool.h>
+
+// Structures
 
 typedef struct Piece
 {
@@ -38,6 +45,11 @@ typedef struct StdCell
 typedef struct HomeStrtCell {
     short count; // 2B
 } HomeStrtCell;
+
+// Value Constants
+
+#define pHome 60
+#define pHomeStrt 55
 
 // Function Prototypes
 
