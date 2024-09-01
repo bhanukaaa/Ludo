@@ -1,3 +1,10 @@
+# Execution
+```shell
+gcc logic.c main.c
+./a.out
+```
+
+
 # Notes
 
 -   "Pieces" are commonly referred to as "Tokens" throughout the program. This is done to prevent confusion between a Player’s pID, and a Piece’s pID, thereby having a Piece’s ID be a tID.
